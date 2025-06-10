@@ -154,7 +154,7 @@ describe("Book Integration Tests", () => {
     });
   });
 
-  describe("DELETE /api/books/:id", () => {
+  describe("DELETE /api/book/:id", () => {
     let bookId: string;
 
     beforeEach(async () => {
